@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.1.1</title>
-      <pubDate>Wed, 28 Oct 2026 03:27:31 +0000</pubDate>
-      <sparkle:version>0.1.1</sparkle:version>
-      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <title>Preseterizer 0.1.2</title>
+      <pubDate>Wed, 28 Oct 2026 03:54:15 +0000</pubDate>
+      <sparkle:version>0.1.2</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Seeds with no free macro knob now also make variations in Mutations packs (without the weird macro), as they already did in ladders.</li><li>The setting is now called "Only seeds with room for the weird macro" (Settings › New packs start with › Room); on, those seeds make only hybrids and no ladder.</li><li>A pack's page counts the presets without a weird macro.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.1.1/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="ctslGisYJZyKV5hp9aBOaCSNR4FsoxFiZLw0Yi2EjOg7p4NCVgvU9TkZxZKeRsp8/0W1v20VU9p1puk3iFqRBw==" length="29852301"/>
+      <description><![CDATA[<ul><li>On a pack's page, click anywhere on a preset's row (or a ladder rung) to tick it for Use as seeds, and click again to untick it. Play and ✕ still do only their own job, and a ticked row stays lit.</li><li>Clicking How weird no longer draws a highlight round the slider. The arrow keys still step it.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.1.2/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="m7qqjolP/ixHwQoZeXb1uY7bM1kq7gDf2dIoko4PjYC+SISJQEegijAjwTedZh+nmY3xow4HyI0Wel8tUa8iBg==" length="29867309"/>
     </item>
   </channel>
 </rss>
