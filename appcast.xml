@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.1.2</title>
-      <pubDate>Wed, 28 Oct 2026 03:54:15 +0000</pubDate>
-      <sparkle:version>0.1.2</sparkle:version>
-      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <title>Preseterizer 0.2.0</title>
+      <pubDate>Wed, 28 Oct 2026 07:05:54 +0000</pubDate>
+      <sparkle:version>0.2.0</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>On a pack's page, click anywhere on a preset's row (or a ladder rung) to tick it for Use as seeds, and click again to untick it. Play and ✕ still do only their own job, and a ticked row stays lit.</li><li>Clicking How weird no longer draws a highlight round the slider. The arrow keys still step it.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.1.2/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="m7qqjolP/ixHwQoZeXb1uY7bM1kq7gDf2dIoko4PjYC+SISJQEegijAjwTedZh+nmY3xow4HyI0Wel8tUa8iBg==" length="29867309"/>
+      <description><![CDATA[<ul><li>A cleaner look: Cold Steel now draws flat blue-grey steel, with no scratches, stains or chips. Settings › Texture brings back Brushed or Gritty if you liked the wear.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.2.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="U3TvVzL3ZYECWn9SzAEjW5gJqEY/nGdWXM+6miB1/cUFVxV9H5bmViRblyaSnO2CHGWPySg3a17evNMH2xQGBA==" length="29870799"/>
     </item>
   </channel>
 </rss>
