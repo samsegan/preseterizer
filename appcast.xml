@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Preseterizer</title>
+    <item>
+      <title>Preseterizer 0.1.0</title>
+      <pubDate>Wed, 28 Oct 2026 00:50:22 +0000</pubDate>
+      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Make preset packs for Current and Serum 2 on this Mac: Mutations (variations and hybrids of your seeds) or a Ladder (each seed from close to super weird). A ladder seed with no macro knob free for the weird macro still gets its ladder, without it (Settings can skip those seeds instead).</li><li>Seeds: drop presets or folders, or use a synth's whole library, all of it or a sample that's saved with the pack. Bass by default; packs Preseterizer made stay out unless you switch them in.</li><li>Packs are made in the background, one at a time, and wait while your DAW plays. Quitting pauses one; it carries on next time.</li><li>Each pack installs straight into its synth. If the synth's folder isn't writable, Preseterizer asks once for your password.</li><li>Review a pack: play each preset and its weird macro, ✕ the misses (they go to the Trash and never come back), tick the best and use them as seeds.</li><li>Notes per pack, and Copy for Claude for the next change to the generator.</li><li>GitHub backup (Settings, off): each pack, its previews and notes as a release.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.1.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="cRnIXOeCTj/gw4Y/BEZco2WJz4OjZgSz0nDkbJgobVMfG8/HAJ8lHHyK8zq0xYoMiJ5LcF0tWzi5P98Ag9+2CA==" length="29847252"/>
+    </item>
+  </channel>
+</rss>
