@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preseterizer for Mac</title>
+  <meta name="description" content="New synth preset packs for Current and Serum 2, made on your Mac from the presets you choose.">
+  <meta name="theme-color" content="#13171e">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <style>
+    /* Cold Steel, as in the app (PreseterizerUI/Theme.swift). */
+    :root {
+      --bg: #13171e; --panel-top: #323a47; --panel-bottom: #252b35; --field: #0a0d12;
+      --text: #e9edf2; --text2: #bac3ce; --muted: #93a0b0; --hairline: #222833;
+      --accent: #70a6dc; --accent-top: #8ac0f6; --accent-bottom: #4a80b6; --good: #80c692;
+      --bevel-light: rgba(125, 136, 153, 0.75); --bevel-dark: #0a0d12;
+      --label: "Barlow", "DIN Condensed", "Bahnschrift SemiCondensed", "Arial Narrow", sans-serif;
+      --body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: radial-gradient(1200px 600px at 50% -200px, #1f2733, transparent), var(--bg);
+      color: var(--text); font: 16px/1.5 var(--body); -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+    h1, h2, .btn, .tagline, .tab { font-family: var(--label); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+    header { display: flex; align-items: center; gap: 18px; }
+    header img { width: 88px; height: 88px; flex: none; margin: -6px; }
+    h1 { font-size: 52px; line-height: 1; margin: 0; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    .tagline { font-size: 15px; color: var(--muted); margin: 6px 0 0; }
+    p { margin: 0 0 12px; color: var(--text2); }
+    .module {
+      background: linear-gradient(var(--panel-top), var(--panel-bottom));
+      border: 1px solid var(--bevel-dark); box-shadow: inset 0 1px 0 var(--bevel-light);
+      clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+      padding: 20px; margin: 0 0 16px;
+    }
+    .download { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 28px 0; }
+    .btn {
+      display: inline-block; font-size: 20px; padding: 12px 26px 11px; text-decoration: none; color: #fff;
+      background: linear-gradient(var(--accent-top), var(--accent-bottom)); border: 1px solid var(--bevel-dark);
+      box-shadow: inset 0 1px 0 rgba(214, 234, 255, 0.6); border-radius: 3px;
+    }
+    .btn:hover { filter: brightness(1.07); }
+    .version { color: var(--muted); font-size: 14px; }
+    .tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+    .tab { color: var(--accent); font-size: 15px; margin: 0 0 4px; }
+    .tabs p { font-size: 14px; margin: 0; }
+    ol { margin: 0; padding-left: 20px; color: var(--text2); }
+    li { margin: 0 0 6px; }
+    code { background: var(--field); padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+    .shot { display: block; width: 100%; height: auto; margin: 0 0 20px; border: 1px solid var(--bevel-dark);
+            border-radius: 4px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45); }
+    main.wide { max-width: 1000px; }
+  </style>
+</head>
+<body>
+<main class="wide">
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Preseterizer</h1>
+      <div class="tagline">Preset packs from your seeds</div>
+    </div>
+  </header>
+
+  <div class="download">
+    <a class="btn" href="https://github.com/samsegan/preseterizer/releases/latest/download/Preseterizer.dmg">Download for Mac</a>
+    <span class="version" id="version">macOS 14 or later · Apple silicon</span>
+  </div>
+
+  <img class="shot" src="screenshot.jpg" width="1600" height="1042"
+       alt="Preseterizer's window: a pack of basses, each with its preview, the one with the weird macro up, and notes for the next round">
+
+  <div class="module">
+    <div class="tabs">
+      <div><div class="tab">Seeds</div><p>Drop in presets or folders, or sample a synth's whole library.</p></div>
+      <div><div class="tab">Mutations</div><p>Variations and hybrids of your seeds, each one rendered, checked and named.</p></div>
+      <div><div class="tab">Ladder</div><p>Each seed in a run from close to super weird.</p></div>
+      <div><div class="tab">Review</div><p>Play each preset and its weird macro, ✕ the misses, and use the best as seeds.</p></div>
+    </div>
+  </div>
+
+  <div class="module">
+    <h2>The first time</h2>
+    <ol>
+      <li>Open <code>Preseterizer.dmg</code> and drag Preseterizer to Applications.</li>
+      <li>Open Preseterizer. macOS says it can't check it for malware (it isn't notarized yet): click Done.</li>
+      <li>System Settings › Privacy &amp; Security › scroll down › <b>Open Anyway</b> next to Preseterizer.</li>
+    </ol>
+    <p style="margin-top:12px">Packs are made on your Mac, in the background, and wait while your DAW plays. Each one installs straight into the synth. You need Current or Serum 2, and a Mac with Apple silicon.</p>
+    <p>After that Preseterizer updates itself: it checks every few hours and installs a new version when you quit it.</p>
+  </div>
+</main>
+<script>
+  // The version in the update feed, next to the button.
+  fetch("appcast.xml", { cache: "no-store" }).then(r => r.ok ? r.text() : "").then(xml => {
+    const v = /<sparkle:shortVersionString>([^<]+)</.exec(xml);
+    if (v) document.getElementById("version").textContent = "Version " + v[1] + " · macOS 14 or later · Apple silicon";
+  }).catch(() => {});
+</script>
+</body>
+</html>
