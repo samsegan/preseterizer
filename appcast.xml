@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.2.0</title>
-      <pubDate>Wed, 28 Oct 2026 07:05:54 +0000</pubDate>
-      <sparkle:version>0.2.0</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>Preseterizer 0.3.0</title>
+      <pubDate>Thu, 29 Oct 2026 05:07:00 +0000</pubDate>
+      <sparkle:version>0.3.0</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>A cleaner look: Cold Steel now draws flat blue-grey steel, with no scratches, stains or chips. Settings › Texture brings back Brushed or Gritty if you liked the wear.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.2.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="U3TvVzL3ZYECWn9SzAEjW5gJqEY/nGdWXM+6miB1/cUFVxV9H5bmViRblyaSnO2CHGWPySg3a17evNMH2xQGBA==" length="29870799"/>
+      <description><![CDATA[<ul><li>In the Seeds panel, click a preset's row (or its tick) to tick it. While any are ticked, only those become seeds; Untick all goes back to all of them or the sample. Ticked seeds stay listed when you draw a new sample.</li><li>A long list's scroll bar now runs in its own lane at the right, so it no longer covers the ✕ buttons.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.3.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="b1YVgPTgbDs/sS/9MOfN2RbqehjKwVz+tZBypenqn68YTvydmc1+w4GV1SCLpqXm92aYLSJKL9SUBphPhDLzAQ==" length="29874905"/>
     </item>
   </channel>
 </rss>
