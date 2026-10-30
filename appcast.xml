@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.3.0</title>
-      <pubDate>Thu, 29 Oct 2026 05:07:00 +0000</pubDate>
-      <sparkle:version>0.3.0</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Preseterizer 0.4.0</title>
+      <pubDate>Fri, 30 Oct 2026 23:42:44 +0000</pubDate>
+      <sparkle:version>0.4.0</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>In the Seeds panel, click a preset's row (or its tick) to tick it. While any are ticked, only those become seeds; Untick all goes back to all of them or the sample. Ticked seeds stay listed when you draw a new sample.</li><li>A long list's scroll bar now runs in its own lane at the right, so it no longer covers the ✕ buttons.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.3.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="b1YVgPTgbDs/sS/9MOfN2RbqehjKwVz+tZBypenqn68YTvydmc1+w4GV1SCLpqXm92aYLSJKL9SUBphPhDLzAQ==" length="29874905"/>
+      <description><![CDATA[<ul><li>Add Fracture, Minimal Poster and Pixel / Game, with Fracture as the initial default.</li><li>Save a different default from Appearance. Cold Steel and its texture options remain available.</li><li>Enable RGB audio preview waveforms with any skin; colours follow the audio's frequency bands.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.4.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="mex8aMdXD7rw9Yy4BvwjBYf5Zsfb6YxZu0av9YgtVuPbe8ZxDhJkDUqujnPMWcLJrpo90iXNJXm0gbzvhMF/AA==" length="32387094"/>
     </item>
   </channel>
 </rss>
