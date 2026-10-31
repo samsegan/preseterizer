@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.4.0</title>
-      <pubDate>Fri, 30 Oct 2026 23:42:44 +0000</pubDate>
-      <sparkle:version>0.4.0</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <title>Preseterizer 0.5.0</title>
+      <pubDate>Sat, 31 Oct 2026 14:47:46 +0000</pubDate>
+      <sparkle:version>0.5.0</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Add Fracture, Minimal Poster and Pixel / Game, with Fracture as the initial default.</li><li>Save a different default from Appearance. Cold Steel and its texture options remain available.</li><li>Enable RGB audio preview waveforms with any skin; colours follow the audio's frequency bands.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.4.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="mex8aMdXD7rw9Yy4BvwjBYf5Zsfb6YxZu0av9YgtVuPbe8ZxDhJkDUqujnPMWcLJrpo90iXNJXm0gbzvhMF/AA==" length="32387094"/>
+      <description><![CDATA[<ul><li>Five new skins: 3D / Exploratory, Sculptural / Organic, Minimal / Instrument, Cinematic / Abstract, and Ethereal / Light.</li><li>Ethereal uses solid pearl panels with clearer controls and text, plus a restrained opalescent finish.</li><li>Existing skin choices and RGB waveform settings are preserved.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.5.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="hob8KKniFZjGmYl1UMTU6QsJTFxAeOgC891SajaFi7Vpv0/GbfiIaKrdxaj9vNrHZIOyH4TOHe66E8J8Ov+YCg==" length="35415253"/>
     </item>
   </channel>
 </rss>
