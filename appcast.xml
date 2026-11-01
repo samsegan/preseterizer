@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.5.1</title>
-      <pubDate>Sat, 31 Oct 2026 21:22:21 +0000</pubDate>
-      <sparkle:version>0.5.1</sparkle:version>
-      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <title>Preseterizer 0.6.0</title>
+      <pubDate>Sun, 01 Nov 2026 16:13:42 +0000</pubDate>
+      <sparkle:version>0.6.0</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Sharper Spatial, Organic, Cinematic and Ethereal artwork on Retina displays.</li><li>More consistent background detail when resizing windows, with crisp corners and edges.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.5.1/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="Zt2Bwgel3mtPNjy/iPHcszddtwGlX8qnJsXqPWsgVGk5wpvJqnf/VXBmRsCTBQXCVyDjq9LY2yi54GpTBmRHBg==" length="34811244"/>
+      <description><![CDATA[<ul><li>Replace Fracture's square artwork tiles with connected smoked-glass frame edges and detailed crack highlights.</li><li>Button edges react to presses and retain a brief memory of repeated interaction, then settle. Reduced Motion keeps the material still.</li><li>Keep waveforms, graphs, filenames and control labels clear.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.6.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="RVVp7sDPtq/ExnL6n+i3bXdREH2C8PXnNd3qtfHTS0Dw4Aede26VPMo3srJ+fwgxcLkKw7cAQFIkgGTgw7MBCg==" length="35155170"/>
     </item>
   </channel>
 </rss>
