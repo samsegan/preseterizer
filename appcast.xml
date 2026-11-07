@@ -3,13 +3,13 @@
   <channel>
     <title>Preseterizer</title>
     <item>
-      <title>Preseterizer 0.6.0</title>
-      <pubDate>Sun, 01 Nov 2026 16:13:42 +0000</pubDate>
-      <sparkle:version>0.6.0</sparkle:version>
-      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <title>Preseterizer 0.7.0</title>
+      <pubDate>Sat, 07 Nov 2026 18:48:40 +0000</pubDate>
+      <sparkle:version>0.7.0</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Replace Fracture's square artwork tiles with connected smoked-glass frame edges and detailed crack highlights.</li><li>Button edges react to presses and retain a brief memory of repeated interaction, then settle. Reduced Motion keeps the material still.</li><li>Keep waveforms, graphs, filenames and control labels clear.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.6.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="RVVp7sDPtq/ExnL6n+i3bXdREH2C8PXnNd3qtfHTS0Dw4Aede26VPMo3srJ+fwgxcLkKw7cAQFIkgGTgw7MBCg==" length="35155170"/>
+      <description><![CDATA[<ul><li>Sort the Seeds table by preset, pack or tags: click a column title for A to Z, click it again for Z to A. Letters sort as you read them (Preset 2 before Preset 10). The choice is kept.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/preseterizer/releases/download/preseterizer-v0.7.0/Preseterizer.dmg" type="application/octet-stream" sparkle:edSignature="X70JqUtfJsQafFulfaUBa5M9GFAWD/dD3pYls85hXrz9adkAeOcRxZBymhXSAxurdmY0zmQyeRR7jSYcLGlfBw==" length="35229044"/>
     </item>
   </channel>
 </rss>
